@@ -1,0 +1,41 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>電卓</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+      <input type="text" id="result" onclick>
+    </div>
+    <div>
+      <input type="button" value="7" onclick="myValue(this)">
+      <input type="button" value="8" onclick="myValue(this)">
+      <input type="button" value="9" onclick="myValue(this)">
+      <input type="button" value="+" onclick="myValue(this)">
+    </div>
+    <div>
+      <input type="button" value="4" onclick="myValue(this)">
+      <input type="button" value="5" onclick="myValue(this)">
+      <input type="button" value="6" onclick="myValue(this)">
+      <input type="button" value="-" onclick="myValue(this)">
+    </div>
+    <div>
+      <input type="button" value="1" onclick="myValue(this)">
+      <input type="button" value="2" onclick="myValue(this)">
+      <input type="button" value="3" onclick="myValue(this)">
+      <input type="button" value="*" onclick="myValue(this)">
+    </div>
+    <div>
+      <input type="button" value="0" onclick="myValue(this)">
+      <input type="button" value="00" onclick="myValue(this)">
+      <input type="button" value="." onclick="myValue(this)">
+      <input type="button" value="/" onclick="myValue(this)">
+    </div>
+    <div class="last">
+      <input type="button" value="AC" id="ac" onclick="myClear(this)">
+      <input type="button" value="=" id="ac"onclick="myCalc()">
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
